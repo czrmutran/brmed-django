@@ -1,0 +1,30 @@
+{% extends 'usuarios/base.html' %}
+{% block conteudo %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/home.css' %}">
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{% static 'img/agendamento.png' %}" class="d-block w-100" alt="Image 01">
+      </div>
+      <div class="carousel-item">
+        <img src="{% static 'img/exame_sangue.png' %}" class="d-block w-100" alt="Image 02">
+      </div>
+      <div class="carousel-item">
+        <img src="{% static 'img/atendimento_especializado.png' %}" class="d-block w-100" alt="Image 03">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div id="card">
+    <h1>Aqui na BRMED você encontra o melhor tipo de atendimento possível hoje em dia</h1>
+  </div>
+
+{% endblock %}

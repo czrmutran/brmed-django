@@ -1,0 +1,13 @@
+img{
+    height: 600px;
+}
+
+#card{
+    color: white;
+    background-color: green;
+    padding: 30px;
+}
+
+#card h1{
+    font-size: 17px;
+}

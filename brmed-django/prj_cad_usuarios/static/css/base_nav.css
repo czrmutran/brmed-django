@@ -1,0 +1,16 @@
+nav{
+    margin-bottom: 30px;
+}
+
+span {
+    justify-content: right;
+}
+
+.mb-3{
+    width: 50%;
+}
+
+.container-fluid {
+    justify-content: center;
+    align-items: center;
+}
